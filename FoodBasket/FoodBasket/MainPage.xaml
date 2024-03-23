@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodBasket.MainPage">
+
+    <Grid >
+        <Label x:Name="Fon_Background" BindingContext="{Binding Source={x:Reference Switch_fon}, Path=IsToggled}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <Grid>
+            <Image x:Name="image_fon" BindingContext="{Binding Source={x:Reference Switch_fon}, Path=IsToggled}"  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+            
+            <StackLayout Padding="18" >
+                <ImageButton x:Name="Icon_setting" BackgroundColor="Silver" Clicked="Icon_setting_onClicked" HeightRequest="48" CornerRadius="4" Margin="0,0,320,10"/>
+                <StackLayout x:Name="drawer_setting" HorizontalOptions="Center" IsVisible="False" BackgroundColor="Transparent">
+                    <StackLayout>
+                        <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                            <Label Text="Setting" HorizontalOptions="Center" FontSize="30" />
+                        </Frame>
+                        <Label/>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                                <Label Text="Отключить обои" FontSize="20"/>
+                            </Frame>
+                            <Switch x:Name="Switch_fon" Toggled="OnToggled"/>
+                        </StackLayout>
+                        
+                        <Label/>
+                        <StackLayout Orientation="Horizontal">
+                            <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                                <Label Text="Темы:Azure/Black" FontSize="20"/>
+                            </Frame>
+                            <Label WidthRequest="20"/>
+                            <Switch x:Name="Color_Fon" Toggled="OnTogg_Color_Fon"/>
+                        </StackLayout>
+
+                        <Label/>
+                        <StackLayout Orientation="Horizontal">
+                            <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                                <Label Text="Добавить обои" FontSize="20"/>
+                            </Frame>
+                            <Label WidthRequest="20"/>
+                            <Button x:Name="Add_Fon" BackgroundColor="Silver" HeightRequest="40" WidthRequest="40" CornerRadius="4" Clicked="Add_Fon_onClicked"/>
+                        </StackLayout>
+                        
+                        <Label/>
+                        <StackLayout>
+                            <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                                <Image x:Name="Add_Image" HeightRequest="300" WidthRequest="300"/>
+                            </Frame>
+                            <Label/>
+                            <Button x:Name="Print_Fon" Text="Применить обои"  BackgroundColor="SpringGreen" CornerRadius="30" Clicked="Print_Fon_onClicked"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <Label HeightRequest="50"/>
+                </StackLayout>
+
+                <Frame Padding="5" CornerRadius="30"  BackgroundColor="Azure">
+                    <Label x:Name="sum" Text="Сумма:" HorizontalTextAlignment="Center" TextColor="SpringGreen" FontSize="40"/>
+                </Frame>
+                <StackLayout Spacing="8" Orientation="Horizontal">
+                    <Entry Placeholder="Название продукта" Margin="5" x:Name="entryName" BackgroundColor="Azure"/>
+                    <Entry Placeholder="Цена" Margin="5" x:Name="entryPrice" BackgroundColor="Azure"/>
+                    <Button Text="Сохранить" BackgroundColor="SpringGreen" Margin="5" Clicked="OnSaveButtonClicked" CornerRadius="30"/>
+                </StackLayout>
+                <Frame CornerRadius="30" BackgroundColor="Azure">
+                    <TableView x:Name="tableView" Background="Azure">
+                        <TableRoot>
+                            <TableSection Title="Продукты:" TextColor="Black"/>
+                        </TableRoot>
+                    </TableView>
+                </Frame>
+                <StackLayout x:Name="drawer" Orientation="Horizontal" HorizontalOptions="Center" IsVisible="False">
+                    <Button Text="Очистить корзину" BackgroundColor="IndianRed" Clicked="OnSaveDelClicked" CornerRadius="30"/>
+                    <Button Text="Удалить продукт" BackgroundColor="IndianRed" CornerRadius="30"/>
+                </StackLayout>
+                <Button x:Name="HiddenMenu" Text="Меню" Grid.Row="0" Clicked="HiddenMenu_onClicked"
+                    HorizontalOptions ="Center" VerticalOptions="Center"
+                    BorderWidth="0" BackgroundColor="SpringGreen" WidthRequest="70" HeightRequest="70" CornerRadius="60" Margin="0,20,70,70"></Button>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

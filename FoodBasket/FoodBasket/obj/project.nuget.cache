@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "aGsmvv0Sua+QdFL1j2xiTCCHx+Q2PyPdn77d3Tagllns7YYwhcBBfuoiPjpDZ6S7HUHLywBsCiieLL7unfTHmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Пользователь\\source\\repos\\FoodBasket\\FoodBasket\\FoodBasket\\FoodBasket.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\xamarin.essentials.interfaces\\1.8.0\\xamarin.essentials.interfaces.1.8.0.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\bin\Debug\netstandard2.0\FoodBasket.deps.json
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\bin\Debug\netstandard2.0\FoodBasket.dll
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\bin\Debug\netstandard2.0\ref\FoodBasket.dll
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\bin\Debug\netstandard2.0\FoodBasket.pdb
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.AssemblyInfoInputs.cache
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.AssemblyInfo.cs
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.dll
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\refint\FoodBasket.dll
+C:\Users\Пользователь\source\repos\FoodBasket\FoodBasket\FoodBasket\obj\Debug\netstandard2.0\FoodBasket.pdb

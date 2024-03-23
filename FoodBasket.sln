@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBasket.Android", "FoodBasket\FoodBasket.Android\FoodBasket.Android.csproj", "{C896AF99-6995-4F53-83F1-2E5E1D6D1880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodBasket", "FoodBasket\FoodBasket\FoodBasket.csproj", "{13BC5690-EE64-4630-B055-9B76F0848FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C896AF99-6995-4F53-83F1-2E5E1D6D1880}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BC5690-EE64-4630-B055-9B76F0848FD2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FA9F3E7-CA2F-47B6-BB3B-B4CE5830CC20}
+	EndGlobalSection
+EndGlobal
